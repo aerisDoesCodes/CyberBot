@@ -1,0 +1,22 @@
+{
+  "name": "cyberwolf",
+  "version": "1.0.0",
+  "description": "CyberWolf is a private bot for HackersHigh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerisDoesCodes/CyberWolf.git"
+  },
+  "author": "aeris#0018",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerisDoesCodes/CyberWolf/issues"
+  },
+  "homepage": "https://github.com/aerisDoesCodes/CyberWolf#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
