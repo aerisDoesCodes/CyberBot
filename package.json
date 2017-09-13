@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/aerisDoesCodes/CyberWolf#readme",
   "dependencies": {
-    "discord.js": "^11.2.1"
+    "discord.js": "^11.2.1",
+    "fs": "0.0.1-security",
+    "winston": "^2.3.1"
   }
 }
