@@ -1,2 +1,2 @@
 # CyberWolf
-CyberWolf is a private bot cause why not right?
+Its on private repo now! 
