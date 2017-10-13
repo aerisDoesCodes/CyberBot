@@ -28,7 +28,6 @@ module.exports = class Events {
 
   async message(message) {
     if (message.content.startsWith(config.prefix)) {
-      // if (data.blacklists[message.author.id]) return message.channel.sendMessage(`:warning: **Uh oh, that's not good.**`);
       let command = message.content.substr(config.prefix.length).split(" ")[0];
       let args = message.content.substr(config.prefix.length + command.length + 1)
       if (this.client.commands.get(command)) {
