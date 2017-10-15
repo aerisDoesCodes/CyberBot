@@ -7,7 +7,7 @@ module.exports = class Ping {
     this.name = "stats";
     this.info = "Checks the bots statistics.";
     this.args = "";
-  }
+  };
 
   async run(message, args) {
     const duration = moment.duration(this.client.uptime).format(" D [days], H [hrs], m [mins], s [secs]");
@@ -18,5 +18,5 @@ module.exports = class Ping {
     • Servers    :: ${this.client.guilds.size.toLocaleString()}
     • Channels   :: ${this.client.channels.size.toLocaleString()}
     • Discord.js :: v${Discord.version}`);
-  }
+  };
 };
