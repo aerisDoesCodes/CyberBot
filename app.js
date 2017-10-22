@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const events = require('./Modules/Events.js');
-const fs = require('fs');
 
 const client = new class Client extends Discord.Client {
   constructor() {
