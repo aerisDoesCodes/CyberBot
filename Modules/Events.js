@@ -9,7 +9,7 @@ module.exports = class Events {
 
   async setGameManager() {
     let client = this.client;
-    let games = ["CyberWolf", "aeris", "with you're mom"];
+    let games = ["CyberWolf", "aeris", "with your mom"];
     setInterval(async () => {
       this.client.user.setGame(games[Math.floor(Math.random() * games.length)]);
     }, 12000)
